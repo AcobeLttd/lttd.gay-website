@@ -1,1 +1,147 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+
+        }
+
+        h2 {
+            text-align: left;
+            font-family: sans-serif;
+            font-size: x-large;
+            padding-left: 5px;
+
+        }
+
+        h3 {
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+        }
+
+        .entire {
+            border: 5px solid #21202e;
+            padding: 10px;
+        }
+
+        .boxes {
+            border: 5px solid #26233a;
+            padding: 5px;
+        }
+
+        body {
+            background-color: #191724;
+            max-width: 800px;
+            margin: auto;
+            padding-bottom: -20px;
+        }
+
+        p {
+            text-align: left;
+            padding: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            font-weight: bold;
+        }
+
+
+        * {
+            color: #e0def4;
+            padding: 4px;
+
+        }
+    </style>
+
+    <title>Hewwooo</title>
+</head>
+
+<body>
+    <div class="entire">
+        <h1>Hewwwoi :3</h1>
+        <div class="boxes">
+            <p><i>Hey so this is a really really basic website i made just because i can and that makes it so my base
+                    domain
+                    dosent
+                    redirect anymore. <br>
+                    This website was made in a couple of minutes and is hosted on github pages for the time being. <br>
+                    The theme is currently rosé pine and you have absolutely no choice in changing it.
+                </i></p>
+        </div>
+        <h2>About me</h2>
+
+        <div class="boxes">
+            <h3>Hewwooo!</h3>
+            <p>
+                Name: Refer to me as Acobe or lttd<br>
+                Gender: Demiboy<br>
+                Age: <span id="age"></span> <br>
+                CachyOS Linux Hyprland HyDE user, but stuck on windows due to school.
+            </p>
+            <h3>What do i like?</h3>
+            <p>I like<br>
+                PC Stuff<br>
+                Tech (i can and will be willing to help if anyone needs tech support lol)<br>
+                Tiny bit of coding(like this website)<br>
+                Wow i really like networking.<br>
+                VR is fun<br>
+                Gayming<br>
+                Anything i find interesting<br>
+                A bit of trains and a bit more of planes<br>
+                :3
+            </p>
+        </div>
+        <h2>Random section for extra thing i want to add later i guess.</h2>
+        <div class="boxes">
+            <p>
+                Wow so empty...
+            </p>
+        </div>
+        <h2>External links!</h2>
+        <div class="boxes">
+            <h3>Bio pages</h3>
+            <p>
+            My<a href="https://guns.lol/lttd" target="_blank" rel="noopner noreferrer">guns.lol</a>site.<br>
+            My<a href="https://linktr.ee/lttd.acobe" target="_blank" rel="noopner noreferrer">linktr.ee</a>site.<br>
+            My<a href="https://en.pronouns.page/@lttd" target="_blank" rel="noopner noreferrer">pronouns.page</a>site. (Currently only in english)<br>
+            This<a href="https://lttd.gay" target="_blank" rel="noopner noreferrer">lttd.gay</lttd></a>site.<br>
+            </p>
+            <h3>Social links</h3>
+            <p>
+            YouTube:<a href="https://www.youtube.com/@acobetheproto" target="_blank" rel="noopner noreferrer">@acobetheproto</a><br>
+            Twitter:<a href="https://x.com/Acobe_the_proto" target="_blank" rel="noopner noreferrer">@Acobe_the_proto</a><br>
+            Bluesky:<a href="https://bsky.app/profile/lttd.gay target="_blank" rel="noopner noreferrer"">@lttd.gay</a>(Mostly unused)<br>
+            Spotify:<a href="https://open.spotify.com/user/h5wvtwetkepitv78pymhgxqje" target="_blank" rel="noopner noreferrer">Acobe</a><br>
+            Twitch:<a href="https://www.twitch.tv/acobe_lttd" target="_blank" rel="noopner noreferrer">acobe_lttd</a><br>
+            Discord: lttd (will most likely not accept your friend request unless you message me first.)
+            </p>
+            <h3>Game profiles</h3>
+            <p>
+            Steam:<a href="https://steamcommunity.com/profiles/76561198130819701" target="_blank" rel="noopner noreferrer">Acobe</a><br>
+            Roblox:<a href="https://www.roblox.com/users/98057655/profile" target="_blank" rel="noopner noreferrer">lttd</a><br>
+            </p>
+            <h3>Misc links</h3>
+            <p>
+            GitHub:<a href="https://github.com/AcobeLttd" target="_blank" rel="noopner noreferrer">AcobeLttd</a><br>
+            </p>
+        </div>
+
+    </div>
+    <script>
+        const dateStr = "23.01.2009";
+        const [day, month, year] = dateStr.split(".").map(Number);
+        const today = new Date();
+        let age = today.getFullYear() - year;
+        const hasHadBirthday =
+            today.getMonth() > month || (today.getMonth() === month && today.getDate() >= day);
+        if (!hasHadBirthday) {
+            age--;
+        }
+        document.getElementById("age").textContent = age
+    </script>
+</body>
+
+</html>
