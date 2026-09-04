@@ -18,6 +18,14 @@ h3 {
     border-bottom: 2px solid #26233a;
 }
 
+iframe.lastfm {
+    display:block;
+    margin: 0 auto;
+    border:none;
+    height:200px;
+}
+
+
 img.blaahaj {
     width: 200px;
     display: block;
