@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding-left: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border-bottom: 2px solid #26233a;
+}
+
+img.blaahaj {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+div.entire {
+    border: 5px solid #21202e;
+    padding: 10px;
+}
+
+div.boxes {
+    border: 5px solid #26233a;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+div.biggiegriddie {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+
+}
+
+p.flags {
+    text-align: center;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+p.smallText {
+    font-size: small;
+    text-align: center;
+    padding: 0px;
+}
+
+body {
+    background-color: #191724;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: -20px;
+}
+
+p {
+    text-align: left;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+* {
+    color: #e0def4;
+    padding: 4px;
+
+}
