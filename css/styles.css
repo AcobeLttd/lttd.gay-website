@@ -23,7 +23,17 @@ iframe.lastfm {
     margin: 0 auto;
     border: none;
     height: 300px;
+
 }
+
+iframe.rickVid {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+}
+
 
 img.blaahaj {
     width: 200px;
